@@ -1,4 +1,4 @@
-package fr.pantheonsorbonne.cri.common.model;
+package fr.pantheonsorbonne.cri.entity;
 
 import java.util.List;
 
@@ -14,9 +14,6 @@ import fr.pantheonsorbonne.cri.common.exceptions.SignUpException;
 import fr.pantheonsorbonne.cri.common.interfaces.ICommentable;
 import fr.pantheonsorbonne.cri.common.interfaces.IPublicable;
 import fr.pantheonsorbonne.cri.common.interfaces.IUserActions;
-import fr.pantheonsorbonne.cri.security_map.model.Incident;
-import fr.pantheonsorbonne.cri.support_network.model.Comment;
-import fr.pantheonsorbonne.cri.support_network.model.Publication;
 
 
     /*

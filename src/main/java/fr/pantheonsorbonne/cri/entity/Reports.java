@@ -1,9 +1,7 @@
-package fr.pantheonsorbonne.cri.common.model;
+package fr.pantheonsorbonne.cri.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import fr.pantheonsorbonne.cri.security_map.model.Incident;
 
     /*
      * This class represents a report of the application

@@ -1,4 +1,4 @@
-package fr.pantheonsorbonne.cri.support_network.model;
+package fr.pantheonsorbonne.cri.entity;
 
 import fr.pantheonsorbonne.cri.common.exceptions.PublicationException;
 import fr.pantheonsorbonne.cri.common.interfaces.IPublicable;
