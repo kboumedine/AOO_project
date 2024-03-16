@@ -1,21 +1,5 @@
 package fr.pantheonsorbonne.cri.entity;
 
-import java.util.List;
-
-import javax.security.auth.login.LoginException;
-
-import fr.pantheonsorbonne.cri.common.exceptions.CommentException;
-import fr.pantheonsorbonne.cri.common.exceptions.IncidentException;
-import fr.pantheonsorbonne.cri.common.exceptions.LogoutException;
-import fr.pantheonsorbonne.cri.common.exceptions.PublicationException;
-import fr.pantheonsorbonne.cri.common.exceptions.RegisterException;
-import fr.pantheonsorbonne.cri.common.exceptions.ReportsException;
-import fr.pantheonsorbonne.cri.common.exceptions.SignUpException;
-import fr.pantheonsorbonne.cri.common.interfaces.ICommentable;
-import fr.pantheonsorbonne.cri.common.interfaces.IPublicable;
-import fr.pantheonsorbonne.cri.common.interfaces.IUserActions;
-
-
     /*
      * This class represents a user of the application
      the topic of this application is about security for people in city called "SafePath"
@@ -28,7 +12,7 @@ import fr.pantheonsorbonne.cri.common.interfaces.IUserActions;
 
      */
 
-public class User implements IUserActions, ICommentable, IPublicable{
+public class User {
     String userId ; // Have to be from the database
     String name;
     String email;
@@ -82,77 +66,4 @@ public class User implements IUserActions, ICommentable, IPublicable{
     public void setReports(Reports reports) {
         this.reports = reports;
     }
-
-    @Override
-    public void addComment(Comment comment) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'addComment'");
-    }
-
-    @Override
-    public List<Comment> GetComments() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'GetComments'");
-    }
-
-    @Override
-    public boolean login(String email, String password) throws LoginException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'login'");
-    }
-
-    @Override
-    public void logout() throws LogoutException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'logout'");
-    }
-
-    @Override
-    public void register(String email, String password) throws RegisterException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'register'");
-    }
-
-    @Override
-    public void signUp(String email, String password) throws SignUpException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'signUp'");
-    }
-
-    @Override
-    public void reportIncident(Incident incident) throws IncidentException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'reportIncident'");
-    }
-
-    @Override
-    public void publishPublication(Publication publication) throws PublicationException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'publishPublication'");
-    }
-
-    @Override
-    public void commentPublication(Comment comment, Publication publication) throws CommentException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'commentPublication'");
-    }
-
-    @Override
-    public void seeIncidentsReported() throws ReportsException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'seeIncidentsReported'");
-    }
-
-    @Override
-    public void publish() throws PublicationException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'publish'");
-    }
-
-    @Override
-    public String displayDetails() throws PublicationException {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'displayDetails'");
-    }
-
 }
