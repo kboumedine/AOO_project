@@ -1,4 +1,4 @@
-package fr.pantheonsorbonne.cri.support_network.controller;
+package fr.pantheonsorbonne.cri.Repository;
 
 import fr.pantheonsorbonne.cri.entity.User;
 

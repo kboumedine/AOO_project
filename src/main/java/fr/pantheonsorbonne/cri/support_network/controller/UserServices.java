@@ -2,6 +2,7 @@ package fr.pantheonsorbonne.cri.support_network.controller;
 
 import javax.security.auth.login.LoginException;
 
+import fr.pantheonsorbonne.cri.Repository.UserRepository;
 import fr.pantheonsorbonne.cri.common.exceptions.CommentException;
 import fr.pantheonsorbonne.cri.common.exceptions.IncidentException;
 import fr.pantheonsorbonne.cri.common.exceptions.LogoutException;
